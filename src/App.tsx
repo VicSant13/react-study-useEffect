@@ -7,7 +7,7 @@ import useHttpData from './hooks/useHttpData';
 
 
 type user = {
-  id?:string,
+  id?:string|number,
   name:string
 }
 
